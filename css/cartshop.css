@@ -1,0 +1,177 @@
+.head{
+    height: 30px;
+    background: #f2f2f2;
+}
+.head-left{
+    line-height: 30px;
+    float: left;
+}
+.head-left a:hover{
+    text-decoration: none;
+}
+.logoBar{
+    overflow: hidden;
+    border-bottom:2px solid #999999;
+}
+.ac{
+    float: left;
+    line-height: 90px;
+    overflow: hidden;
+    padding: 0 20px;
+}
+.logoBar .ad{
+    float: right;
+    padding: 27px 0px;
+    height: 36px;
+    line-height: 36px;
+}
+.ad span{
+    float: left;
+    color: #1a1a1a;
+    font-size: 12px;
+    padding-left: 49px;
+    margin-right: 33px;
+}
+.g{
+    background: url(../images/promiseAd%20.png) no-repeat left;
+}
+.y{
+    background: url(../images/promiseAd%20.png) no-repeat -140px 0;
+}
+.z{
+    background: url("../images/promiseAd%20.png") no-repeat right;
+}
+.content{
+    overflow: hidden;
+}
+.shoppingPrc{
+    width: 617px;
+    height: 36px;
+    line-height: 36px;
+    overflow: hidden;
+    background: url(../images/shoppingProcedure.png) no-repeat left center;
+    margin: 28px 0px 0;
+}
+.current{
+    color: #FFFFFF;
+}
+.shoppingPrc span{
+    font-size: 18px;
+    padding-left: 93px;
+}
+
+.list{
+    margin-top: 20px;
+    overflow: hidden;
+}
+.list ul{
+    overflow: hidden;
+}
+.bookdl{
+    height: 40px;
+    width: 1000px;
+    border: 1px solid #999999;
+    margin: 20px 0 25px 0;
+}
+.bookdl ul{
+    overflow: hidden;
+    line-height: 38px;
+}
+.bookdl ul li {
+    overflow: hidden;
+    float: left;
+    color: #666;
+}
+li.f1 span {
+    cursor: pointer;
+    margin: 12px 23px 0px 13px;
+    float: left;
+    height: 14px;
+    width: 14px;
+    text-indent: 999px;
+    overflow: hidden;
+    display: inline;
+}
+span.selectAll {
+    background: url(../images/carSprites.png) no-repeat left -47px;
+}
+.bookdl li.f1{
+    width: 152px;
+    overflow: hidden;
+
+}
+.bookdl li.f2{
+    width: 233px;
+}
+.bookdl li.f3{
+    width: 126px;
+}
+.bookdl li.f4{
+    width: 131px;
+}
+.bookdl li.f5{
+    width: 154px;
+}
+.bookdl li.f6{
+    width: 120px;
+}
+.bookdl li.f7{
+    width: 78px;
+}
+.bookInfo{
+    position: relative;
+    border: 1px solid #999999;
+    height: 120px;
+    width: 998px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+.name,.bookname,.sellprice,.price{
+    position: absolute;
+    font-size: 16px;
+    top: 52px;
+    left: 14px;
+}
+.bookname{
+    left: 142px;
+}
+.sellprice{
+    left: 384px;
+}
+.price{
+    left: 531px;
+}
+.bookInfo b{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 52px;
+    right: 100px;
+    border: 1px solid #333333;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+.bookInfo i{
+    position: absolute;
+    top: 57px;
+    right: 323px;
+    font-size: 16px;
+}
+.bookInfo .rd{
+    right: 340px;
+}
+.bookInfo .add{
+    right: 287px;
+}
+.bookInfo .num{
+    position: absolute;
+    right: 160px;
+    top: 52px;
+}
+.doSome{
+    position: absolute;
+    right: 58px;
+    top: 52px;
+    cursor: pointer;
+}

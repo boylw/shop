@@ -1,0 +1,702 @@
+/*top部分*/
+.top{
+    font-size: 12px;
+    line-height: 31px;
+    height: 31px;
+    background-color: #F2F2F2;
+}
+i{
+    font-size: 16px;
+}
+.loginArea{
+    float: left;
+}
+.webTool{
+    float: right;
+}
+.webTool li{
+    padding-left: 5px;
+    float: left;
+}
+
+/*search部分*/
+.searchBar{
+    position: relative;
+    height: 100px;
+    z-index: 9;
+    background: #fff;
+    width: 100%;
+}
+
+/*logo*/
+.logo{
+    float: left;
+    width: 199px;
+    height: 100px;
+    margin-right: 75px;
+    background-color: bisque;
+}
+
+/*搜索框开始*/
+.searchBar {
+    position: relative;
+    height: 100px;
+    z-index: 9;
+    background: #fff;
+}
+.searchBarFixed {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.searchArea{
+    float: left;
+    margin-top: 20px;
+}
+
+.searchArea .searchFrom{
+    float: left;
+    height: 36px;
+    width: 606px;
+    border: 2px solid #e60000;
+    position: relative;
+}
+.searchArea .inputWrap{
+    padding: 8px 0;
+    float: left;
+    width: 508px;
+}
+.searchArea .searchFrom .searchBut {
+    float: left;
+    height: 36px;
+    background: #e60000;
+    color: #fff;
+    line-height: 36px;
+    width: 98px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Microsoft YaHei';
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+.searchArea .searchFrom .inputWrap input {
+    display: block;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    background: #fff;
+    font-size: 12px;
+    color: #666;
+    text-indent: 1em;
+    border: none;
+}
+.searchArea .searchFrom .dropSearch {
+    width: 63px;
+    position: absolute;
+    right: 98px;
+    height: 36px;
+    top: 0;
+    border-left: 1px solid #dbdbdb;
+    padding: 0 9px 0 9px;
+    background: #FFF;
+}
+.searchArea .searchFrom .dropSearch dl {
+    position: relative;
+}
+.searchArea .searchFrom .dropSearch dt {
+    height: 36px;
+    line-height: 36px;
+    color: #999;
+    text-align: center;
+    cursor: pointer;
+}
+.searchArea .searchFrom .dropSearch dd {
+    position: absolute;
+    top: 28px;
+    left: -10px;
+    width: 80px;
+    border: 1px solid #dbdbdb;
+    background: #fff;
+    line-height: 24px;
+    text-indent: 8px;
+    display: none;
+    padding-top: 5px;
+    border-top: none;
+}
+.searchArea .searchFrom .dropSearch dd ul li {
+    color: #999999;
+    cursor: pointer;
+    position: relative;
+}
+.dropSearch dd ul li.on {
+    color: #e02626;
+    cursor: pointer;
+    background: #f5f5f5;
+}
+
+/*hotword开始*/
+.searchArea .hotWord {
+    line-height: 28px;
+    overflow: hidden;
+}
+.hotWord a {
+    font-size: 13px;
+    float: left;
+    color: #999;
+    margin-right: 25px;
+    text-decoration: none;
+}
+/*nav部分开始*/
+#nav {
+    border-bottom: 2px solid #23e6b8;
+    position: relative;
+    z-index: 8;
+}
+#nav .category-content {
+    position: relative;
+    z-index: 113;
+}
+#nav .category-content .all-goods {
+    float: left;
+    width: 200px;
+    height: 42px;
+    position: relative;
+}
+#nav .category-content .all-goods h2 {
+    background: #00B79C url(../images/categoryarrowdown.png) no-repeat 159px 18px;
+    line-height: 42px;
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    z-index: 114;
+    text-indent: 40px;
+    z-index: 114;
+    cursor: pointer;
+}
+#nav .category-content .all-goods .icon {
+    position: absolute;
+    width: 16px;
+    height: 15px;
+    background: url(../images/homeindex.png) no-repeat -9px 0px;
+    left: 13px;
+    top: 14px;
+}
+.category-content .category {
+    display: block;
+    position: absolute;
+    top: 42px;
+    z-index: 112;
+    width: 200px;
+    height: 696px;
+    display: block;
+}
+.category .categoryInner {
+    border: 1px solid #00b6f0;
+    border-top: none;
+    background: #fff;
+}
+
+.category-content .category-list > li {
+    padding-top: 2px;
+    background: url(../images/navline.jpg) no-repeat bottom center;
+    padding-bottom: 2px;
+    border-left: 2px solid #fff;
+    border-right: none;
+    position: relative;
+    z-index: 113;
+    vertical-align: bottom;
+}
+.category-content .category-info {
+    padding-left: 11px;
+    position: relative;
+}
+.category-content .category-name {
+    padding-top: 8px;
+}
+.category-content .category-name a {
+    color: #00b6f0;
+    font-family: 'Microsoft YaHei';
+    font-size: 16px;
+    font-weight: 400;
+}
+.category-content .c-category-list {
+    position: relative;
+    margin-top: 7px;
+    line-height: 24px;
+    padding-bottom: 10px;
+    zoom: 1;
+    overflow: hidden;
+    margin-right: 11px;
+    padding-bottom: 9px\9;
+}
+.category-content .category-info em {
+    position: absolute;
+    top: 7px;
+    right: 3px;
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    color: #666666;
+}
+
+.category-content .c-category-list a {
+    margin-right: 12px;
+    color: #666;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.category-content .c-category-list a:hover{
+    color: #00b6f0;
+}
+.category-content .category-info {
+    padding-left: 11px;
+    position: relative;
+}
+
+.category-content .menu-item {
+    display: none;
+    position: absolute;
+    z-index: 11;
+    left: 190px;
+    width: 757px;
+    background: #fff;
+    border: none;
+    border-top: 1px solid #00b6f0\9;
+    zoom: 1;
+    border: 2px solid #e60000;
+    background: #fff;
+}
+.category-content .menu-item .area-bg {
+    padding: 10px 0 10px 16px;
+}
+.sublist {
+    padding-right: 32px;
+}
+.sublist li {
+    overflow: hidden;
+    padding: 9px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+.sublist li h3.mcate-item-hd {
+    font-size: 12px;
+    float: left;
+    width: 85px;
+    line-height: 24px;
+}
+.sublist li p.mcate-item-bd {
+    float: left;
+    width: 600px;
+    overflow: hidden;
+    line-height: 24px;
+    overflow: hidden;
+}
+.category-content .all_category {
+    text-align: right;
+    padding-right: 12px;
+    line-height: 21px;
+}
+.category-content .category .guanggao {
+    margin-top: 11px;
+    display: block;
+}
+#nav .category-content .specil_category {
+    float: left;
+    width: 1000px;
+}
+.category-content .specil_category li {
+    float: left;
+    line-height: 42px;
+}
+.category-content .specil_category li.cur a {
+    color: #e60000;
+    font-weight: bold;
+}
+.specil_category li a {
+    display: block;
+    height: 42px;
+    padding: 0 29px;
+    text-decoration: none;
+    color: #333333;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+}
+.specil_category li a:hover{
+    color: #00b6f0;
+}
+/*主体部分*/
+.cate-list{
+    width: 198px;
+    height: 400px;
+    background-color: #333333;
+    float: left;
+}
+.toggle{
+    width: 198px;
+    overflow: hidden;
+}
+/*接口开始*/
+.day{
+    float: right;
+    height: 100px;
+    width: 215px;
+    background: #e70b1c;
+}
+/*轮播图css*/
+
+.banner{
+    overflow: hidden;
+    float: left;
+    margin-left: 210px;
+    margin-top: 20px;
+    position: relative;
+    z-index: 10;
+}
+.bannerList{
+    position: relative;
+    height: 360px;
+    width: 990px;
+    overflow: hidden;
+    margin:0 auto;
+}
+.on{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ulon{
+    display: block;
+}
+.bannerbottom{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin: 321px -504px;
+    background-color: rgba(51, 51, 51, 0.78);
+    width: 1011px;
+    height: 38.4px;
+    overflow: hidden;
+    border-radius: 5%;
+}
+.bannerbottom a{
+    font-size: 12px;
+    text-align: center;
+    line-height: 38.4px;
+    color: rgba(255, 255, 255, 0.79);
+    float: left;
+    display: block;
+    width: 168.4px;
+    height: 38.4px;
+}
+.bannerbottom span{
+    font-family: '微软雅黑';
+    display: block;
+    width: 168.4px;
+    height: 38.4px;
+    margin: 0;
+}
+.show{
+    opacity: 1;
+}
+.hide{
+    opacity: 0;
+}
+.current{
+    text-decoration: underline;
+    color: #ffffff;
+}
+/*<!--主编推荐 本周精选  新书速递  读者热评  畅销榜-->*/
+.hotBookWrap {
+    position: relative;
+    z-index: 6;
+}
+.hotBookWrap .hotbookinner {
+    margin: 10px 0 0 210px;
+    width: 990px;
+}
+.hotBookWrap .hotBook {
+    margin-top: 4px;
+    float: left;
+    width: 730px;
+    background: #ffffff;
+    padding: 10px;
+    overflow: hidden;
+}
+.hotBook .tabTit {
+    overflow: hidden;
+}
+.hotBook .tabTit a {
+    cursor: default;
+    float: left;
+    border-top: 3px solid #eff2fa;
+    color: #333333;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    height: 37px;
+    line-height: 30px;
+    padding: 0 25px;
+    text-decoration: none;
+}
+.hotBook .tabTit a.cur {
+    border-top: 3px solid #e60000;
+    color: #e60000;
+    background: #fff;
+    font-weight: bold;
+}
+.hotBook .tabCon {
+    background: #fff;
+}
+.tabConList {
+    position: relative;
+    display: none;
+}
+.tabItem.cur {
+    display: block;
+}
+.mainEditor {
+    overflow: hidden;
+}
+.mainEditor .mainEditorInner {
+    padding: 15px 15px 0;
+    height: 174px;
+    border-bottom: 1px solid #eef1f9;
+}
+.mainEditor .mainCover {
+    float: left;
+    height: 160px;
+    width: 189px;
+    text-align: center;
+    display: inline;
+    position: relative;
+}
+.mainEditor .mainCover a {
+    display: block;
+    height: 160px;
+    background: #fff;
+}
+.mainEditor .mainCover .icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.mainEditor .mainText {
+    float: left;
+    width: 495px;
+    display: inline;
+    overflow: hidden;
+}
+.mainEditor .mainText h2 {
+    margin-top: 10px;
+    line-height: 30px;
+}
+.mainEditor .mainText h2 a {
+    font-size: 16px;
+    color: #000;
+    font-family: "Microsoft YaHei";
+    text-decoration: none;
+}
+.mainEditor .priceWrap {
+    overflow: hidden;
+    line-height: 30px;
+}
+.mainEditor .priceWrap .sellPrice {
+    color: #00b6f0;
+}
+.mainEditor .priceWrap .price {
+    color: #999999;
+    margin-left: 11px;
+    text-decoration-line: line-through;
+}
+.mainEditor .mainFont {
+    height: 96px;
+    overflow: hidden;
+}
+.mainEditor p {
+    color: #666666;
+    line-height: 24px;
+    text-indent: 2em;
+    margin-top: 1px;
+}
+.tabItem .tabbook {
+    padding: 0 1px;
+    margin-top: 10px;
+}
+.tabItem .tabbook ul {
+    overflow: hidden;
+}
+.tabItem .tabbook ul li {
+    float: left;
+    width: 182px;
+    overflow: hidden;
+    position: relative;
+}
+.tabItem .tabbook .Img {
+    text-align: center;
+    margin-top: 7px;
+    height: 158px;
+}
+.tabItem .tabbook .Img img {
+    max-height: 158px;
+    max-width: 158px;
+}
+.tabItem .tabbook .name {
+    padding: 10px 15px 0;
+    line-height: 18px;
+    height: 36px;
+    overflow: hidden;
+}
+.tabItem .tabbook .name a {
+    color: #333333;
+    font-size: 12px;
+    text-decoration: none;
+}
+.tabItem .tabbook .priceWrap {
+    overflow: hidden;
+    padding: 4px 15px 15px 15px;
+    line-height: 20px;
+}
+.tabItem .tabbook .priceWrap .sellPrice {
+    color: #00b6f0;
+    font-size: 16px;
+}
+.tabItem .tabbook .priceWrap .price {
+    color: #999999;
+    font-size: 12px;
+    margin-left: 10px;
+    text-decoration-line: line-through;
+}
+.tabItem .tabbook ul li .icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.tabItem {
+    display: none;
+}
+.mainEditor {
+    overflow: hidden;
+}
+.mainEditor .mainEditorInner {
+    padding: 15px 15px 0;
+    height: 174px;
+    border-bottom: 1px solid #eef1f9;
+}
+.mainEditor .mainCover {
+    float: left;
+    height: 160px;
+    width: 189px;
+    text-align: center;
+    display: inline;
+    position: relative;
+}
+.mainEditor .mainCover a {
+    display: block;
+    height: 160px;
+    background: #fff;
+}
+.mainEditor .mainCover a img {
+    max-height: 160px;
+    max-width: 160px;
+}
+.tabItem .tabbook {
+    padding: 0 1px;
+    margin-top: 10px;
+}
+.tabItem .tabbook ul {
+    overflow: hidden;
+}
+.tabItem .tabbook ul li {
+    float: left;
+    width: 182px;
+    overflow: hidden;
+    position: relative;
+}
+.tabConList {
+    position: relative;
+    display: none;
+}
+.tabConList .leftArrow {
+    left: 0;
+    background: url(../images/homeindex.png) no-repeat -73px -38px;
+    background-color: #000;
+    background-color: rgba(0,0,0,0.35);
+}
+.tabConList .arrow {
+    position: absolute;
+    width: 27px;
+    height: 38px;
+    top: 50%;
+    margin-top: -57px;
+    cursor: pointer;
+    z-index: 9;
+    display: none;
+}
+.tabConList .rightArrow {
+    right: 0;
+    background: url(../images/homeindex.png) no-repeat -73px 0px;
+    background-color: #000;
+    background-color: rgba(0,0,0,0.35);
+}
+.tabConList .arrow {
+    position: absolute;
+    width: 27px;
+    height: 38px;
+    top: 50%;
+    margin-top: -57px;
+    cursor: pointer;
+    z-index: 9;
+    display: none;
+}
+.tabConList.cur {
+    display: block;
+}
+.mainEditor {
+    overflow: hidden;
+}
+.mainEditor .mainEditorInner {
+    padding: 15px 15px 0;
+    height: 174px;
+    border-bottom: 1px solid #eef1f9;
+}
+.mainEditor .mainCover {
+    float: left;
+    height: 160px;
+    width: 189px;
+    text-align: center;
+    display: inline;
+    position: relative;
+}
+.mainEditor .mainCover a {
+    display: block;
+    height: 160px;
+    background: #fff;
+}
+.mainEditor .mainText {
+    float: left;
+    width: 495px;
+    display: inline;
+    overflow: hidden;
+}
+.mainEditor .mainText h2 {
+    margin-top: 10px;
+    line-height: 30px;
+}
+.mainEditor .mainText h2 a {
+    font-size: 16px;
+    color: #000;
+    font-family: "Microsoft YaHei";
+    text-decoration: none;
+}
+.mainEditor p {
+    color: #666666;
+    line-height: 24px;
+    text-indent: 2em;
+    margin-top: 1px;
+}
+.tabItem .tabbook {
+    padding: 0 1px;
+    margin-top: 10px;
+}
